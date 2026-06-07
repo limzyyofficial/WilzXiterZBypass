@@ -3,8 +3,8 @@
 
   // ─── Konfigurasi URL & Style (Sudah Mengarah ke Repo Vanz) ───────────────────
   const CONFIG = {
-    r: "https://raw.githubusercontent.com/limzyyofficial/WilzXiterZBypass/refs/heads/main/WilzBypass",
-    t: "https://raw.githubusercontent.com/limzyyofficial/WilzXiterZBypass/refs/heads/main/wilz.txt",
+    r: "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/vanz.txt",
+    t: "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/chanel.txt",
     m: "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/music.mp3",
     s: "position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);" +
        "background:rgba(6,10,23,0.95);backdrop-filter:blur(12px);" +
@@ -18,9 +18,9 @@
 
   // ─── Key Manual (Bypass License) ─────────────────────────────────────────────
   const VALID_KEYS = [
-    "WILZ VIP PREMIUM",
-    "WILZVN",
-    "WILZXITERZ",
+    "VANZ VIP PREMIUM",
+    "VANZXTP",
+    "VANZ VIP",
     "RAMAMODZ", // Tetap dipertahankan biar ga crash kalau ada cache lama
   ];
 
@@ -34,8 +34,8 @@
     document.getElementById("vanz-auth-box")?.remove();
     document.getElementById("vanz-floating-credit")?.remove();
 
-    const titleName    = "WILZXITERZ";
-    const telegramLink = "https://t.me/wilzxiterz"; // Mengikuti variabel asal t.me/ramachanel sesuai script asli
+    const titleName    = "VANZ VIP";
+    const telegramLink = "https://t.me/stokvanzz12"; // Mengikuti variabel asal t.me/ramachanel sesuai script asli
 
     // ── Inject CSS Animasi ────────────────────────────────────────────────────
     const styleEl = document.createElement("style");
@@ -112,7 +112,7 @@
     const creditLink     = document.createElement("a");
     creditLink.id        = "vanz-floating-credit";
     creditLink.className = "vanz-clickable-credit";
-    creditLink.innerText = "WILZXITERZ VN";
+    creditLink.innerText = "VANZXTP TEAM";
     creditLink.href      = "https://t.me/ramachanel";
     creditLink.target    = "_blank";
     document.body.appendChild(creditLink);
@@ -159,12 +159,12 @@
         padding:12px;border-radius:8px;font-weight:700;cursor:pointer;
         font-size:14px;letter-spacing:0.5px;
         box-shadow:0 4px 12px rgba(34,158,217,0.25);">
-        TELEGRAM WILZXITERZ
+        TELEGRAM VANZXTP
       </button>
 
       <div id="vanz-status" style="margin-top:16px;font-size:11px;font-weight:700;
                                    color:#64748b;letter-spacing:1.5px;">
-        WILZXITERZ DEVELOPER
+        VANZXTP DEVELOPER
       </div>
     `;
     document.body.appendChild(authBox);
