@@ -4,7 +4,7 @@
   // ─── Konfigurasi URL & Style (Sudah Mengarah ke Repo Vanz) ───────────────────
   const CONFIG = {
     r: "https://raw.githubusercontent.com/limzyyofficial/WilzXiterZBypass/refs/heads/main/WilzBypass",
-    t: "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/chanel.txt",
+    t: "https://raw.githubusercontent.com/limzyyofficial/WilzXiterZBypass/refs/heads/main/wilz.txt",
     m: "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/music.mp3",
     s: "position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);" +
        "background:rgba(6,10,23,0.95);backdrop-filter:blur(12px);" +
@@ -402,7 +402,7 @@
           authBox.innerHTML = `
             <h3 style="margin:0 0 8px 0;color:#00ffcc;font-size:18px;letter-spacing:1px;
                        font-weight:800;text-shadow:0 0 12px rgba(0,255,204,0.5);">
-             WILL VIP METHOD MODE
+             VANZ VIP METHOD MODE
             </h3>
             <p style="margin:0 0 22px 0;color:#64748b;font-size:10px;letter-spacing:1.5px;font-weight:600;">
               CHOOSE SECURITY BYPASS METHOD
