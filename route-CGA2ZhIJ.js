@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-adkchSDI.js";import{b as t}from"./index-BN3GkXdG.js";var n=e(),r=()=>(0,n.jsx)(t,{});export{r as component};
